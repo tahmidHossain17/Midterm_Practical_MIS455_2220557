@@ -1,3 +1,8 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+
 ul{
 
     list-style-type: none;
@@ -20,7 +25,7 @@ nav a{
     padding: 15px;
     margin-right: 20px;
     color: white;
-    width: 70;
+    /* width: 70; */
     font-size: 1.5rem;
  
   
@@ -31,4 +36,30 @@ nav a:hover{
     color: #0b0f10;
     border: 1px solid rgb(5, 5, 44);
 
+}
+
+
+.defination{
+    display: flex;
+}
+ .defination p{
+    word-wrap: break-word;
+    border-style: double;
+    border-radius: 10px;
+    border-color: #333;
+    background-color: rgba(0,0,0,0.4);
+    margin-right: 90px;
+    padding: 30px;
+    
+
+
+ }
+
+
+footer {
+    text-align: end;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
