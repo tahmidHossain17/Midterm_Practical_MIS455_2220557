@@ -1,11 +1,11 @@
 h1{
     text-align: center;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 body{
 
-background-color: #e9e9ee;
+background-color: #f1f7f6;
 
 }
 
@@ -122,6 +122,9 @@ footer {
 #contacts{display: flex;
     justify-content: center;
     margin: 200;
+    color: #1e21d2;
+    
+
     
     
 }
