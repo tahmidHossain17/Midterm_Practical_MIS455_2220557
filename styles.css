@@ -84,14 +84,31 @@ nav a:hover{
     display: grid;
     grid-template-columns: repeat(2,1fr);}
 
-    .anim{
+    .mobile{
     
-        height: 100px;
-        width: 100px;
+        height: 300px;
+        width: 300px;
         margin: 2%;
         padding: 2%;
         border-radius: 10%;
     }
+
+
+    .para{
+        background-color: rgba(0,0,0,0.7);
+        color: white;
+        /* font-size: 1.5rem;
+        height: auto; */
+        margin: 5%;
+        padding: 10%;
+        /* font-weight: 700;
+        line-height: 1.5; */
+        border-radius: 5px;
+
+        border-width: 20;
+ 
+    
+    }    
 
 footer {
     text-align: end;
