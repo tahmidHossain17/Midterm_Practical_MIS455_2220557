@@ -80,6 +80,19 @@ nav a:hover{
     flex: 1;
 }
 
+.prdct{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);}
+
+    .anim{
+    
+        height: 100px;
+        width: 100px;
+        margin: 2%;
+        padding: 2%;
+        border-radius: 10%;
+    }
+
 footer {
     text-align: end;
     background-color: #333;
