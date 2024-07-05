@@ -117,3 +117,40 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+
+#contacts{display: flex;
+    justify-content: center;
+    margin: 200;
+    
+    
+}
+
+
+#contacts i:hover{
+    color: rgb(20, 173, 35);
+}
+
+#contacts i{
+    font-size: 6rem;
+   
+}
+
+.wp{
+
+    margin-right: 100
+    ;
+    margin-left: 100;
+}
+
+.descrip{
+    display: flex;
+    
+   background-color: rgba(5, 6, 36, 0.4);
+   border-radius: 10px;
+   padding: 20;
+   margin: 10;
+   color: white;
+
+}
+
