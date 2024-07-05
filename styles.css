@@ -3,6 +3,12 @@ h1{
     background-color: aquamarine;
 }
 
+body{
+
+background-color: #e9e9ee;
+
+}
+
 ul{
 
     list-style-type: none;
@@ -39,10 +45,22 @@ nav a:hover{
 }
 
 
-.defination{
+
+
+ .definition {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
- .defination p{
+
+.definition .inner {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.definition p {
     word-wrap: break-word;
     border-style: double;
     border-radius: 10px;
@@ -50,11 +68,17 @@ nav a:hover{
     background-color: rgba(0,0,0,0.4);
     margin-right: 90px;
     padding: 30px;
-    
+    flex: 1;
+}
 
-
- }
-
+.definition img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    flex: 1;
+}
 
 footer {
     text-align: end;
