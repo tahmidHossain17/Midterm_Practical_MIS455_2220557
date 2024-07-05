@@ -149,7 +149,7 @@ footer {
 .descrip{
     display: flex;
     
-   background-color: rgba(5, 6, 36, 0.4);
+   background-color: rgba(0,0,0,0.7);
    border-radius: 10px;
    padding: 20;
    margin: 10;
@@ -157,3 +157,17 @@ footer {
 
 }
 
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
